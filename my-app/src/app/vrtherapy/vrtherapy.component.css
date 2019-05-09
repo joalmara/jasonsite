@@ -1,0 +1,169 @@
+.header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding:10px;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+  .over{
+    display: block;
+    margin: auto auto;
+  }
+
+  .bulletStyle{
+    list-style: none; /* Remove list bullets */        display: inline-block
+    
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.contentText
+{
+   padding-left: 8.5em;
+}
+
+li{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+}
+
+
+body {
+    font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    padding-top: 54px;
+    color: #868e96;
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: 17rem;
+    }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
+  
+  .subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.5rem;
+  }
+  
+  
+  
+
+  
+
+  section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem;
+  }
+  
+  section.resume-section .resume-item .resume-date {
+    min-width: none;
+  }
+  
+  @media (min-width: 768px) {
+    section.resume-section {
+      min-height: 100vh;
+    }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    section.resume-section {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+  }
+  
+  .bg-primary {
+    background-color: #0C2340 !important;
+  }
+  
+  .text-primary {
+    color: #85714D !important;
+  }
+  
+  a {
+    color: #85714D;
+  }
+  
+  a:hover, a:focus, a:active {
+    color: #85714D;
+  }
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+  .footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2C3E50;
+    color: #fff;
+  }
+  
+  .copyright {
+    background-color: #1a252f;
+  }

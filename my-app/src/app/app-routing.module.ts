@@ -6,12 +6,14 @@ import { CanvasComponent } from './canvas/canvas.component';
 import { VrtherapyComponent } from './vrtherapy/vrtherapy.component';
 import { UsecaseComponent } from './usecase/usecase.component';
 import { HomeComponent } from './home/home.component';
+import {SleeploggerComponent } from './sleeplogger/sleeplogger.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'canvas', component: CanvasComponent},
   { path: 'VRTherapy', component: VrtherapyComponent},
   { path: 'usecase', component: UsecaseComponent},
+  { path: 'sleeplogger', component: SleeploggerComponent},
 
 
 

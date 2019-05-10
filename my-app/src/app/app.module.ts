@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel'
 
 import { LocationStrategy, HashLocationStrategy} from '@angular/common';
+import { SleeploggerComponent } from './sleeplogger/sleeplogger.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { LocationStrategy, HashLocationStrategy} from '@angular/common';
     UsecasepptComponent,
     AboutComponent,
     HomeComponent,
+    SleeploggerComponent,
   ],
   imports: [
     BrowserModule,

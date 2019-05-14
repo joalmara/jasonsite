@@ -36,11 +36,13 @@
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"> Jason Almaraz </a>
         <button  class="btn btn-outline-primary" 
-        aria-controls="collapseExample" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="collapseExample" class="navbar-toggler navbar-toggler-right text-uppercase bg-secondary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" (click)="toggleNavbar()" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive" id="collapseExample" >
+
+
+        <div class="collapse navbar-collapse" [ngClass]="{'show': navbarOpen }" id="navbarResponsive" id="collapseExample" >
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>

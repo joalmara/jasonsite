@@ -7,6 +7,7 @@ import { VrtherapyComponent } from './vrtherapy/vrtherapy.component';
 import { UsecaseComponent } from './usecase/usecase.component';
 import { HomeComponent } from './home/home.component';
 import {SleeploggerComponent } from './sleeplogger/sleeplogger.component';
+import { AspireComponent } from './aspire/aspire.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'VRTherapy', component: VrtherapyComponent},
   { path: 'usecase', component: UsecaseComponent},
   { path: 'sleeplogger', component: SleeploggerComponent},
+  { path: 'aspire', component: AspireComponent},
 
 
 
